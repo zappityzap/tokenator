@@ -1,13 +1,13 @@
-#! /usr/bin/python3
-
 # Initial script from u/funkmasterplex
 # https://www.reddit.com/r/StableDiffusion/comments/154xnmm/comment/jss3mt7/
 
-# Make a new venv: $ python3 -m venv venv
-# Install stuff: pip install torch
-# pip install ftfy regex tqdm
-# pip install torch torchvision
-# pip install git+https://github.com/openai/CLIP.git
+# Setup
+# python3 -m venv venv
+# source venv/bin/activate
+# pip install -r requirements.txt
+
+# Run
+# python3 tokenator.py --file1 <...> --file2 <...>
 
 import torch
 import tqdm
