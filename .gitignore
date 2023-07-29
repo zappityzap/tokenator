@@ -1,0 +1,31 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environment
+venv/
+env/
+*.venv/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Local configuration files
+*.env
+*.log
+
+# Compiled Python modules
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Dependency directories
+# Add any specific directories where dependencies are installed, e.g., 'pipenv', 'poetry', 'venv', etc.
