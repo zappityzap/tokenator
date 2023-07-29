@@ -59,7 +59,8 @@ for x in tqdm.tqdm(range(49408)):
 	this_e = torch.sum(torch.abs(custom[key][x].clone().half() - standard[key][x].clone().half()))
 	if this_e >= error_epsilon:
 		token = tokenizer.decode([x])
-		temp.append([f"\tToken {x} ({token}) error: {this_e}", this_e])
+		# temp.append([f"\tToken {x} ({token}) error: {this_e}", this_e])
+		temp.append([f"{token:12} error: {this_e}", this_e])
 temp.sort(key=lambda x: -x[1])
 temp = list(map(lambda x: x[0], temp))[:100]
 report += temp
