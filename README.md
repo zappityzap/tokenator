@@ -10,6 +10,7 @@ Initial script from u/funkmasterplex: https://www.reddit.com/r/StableDiffusion/c
 ```
 python3 -m venv venv
 source venv/bin/activate
+pip install git+https://github.com/openai/CLIP.git
 pip install -r requirements.txt
 ```
 The first rule of diffusion club is: don't download ckpt files.
